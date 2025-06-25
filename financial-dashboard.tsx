@@ -111,8 +111,8 @@ export default function FinancialDashboard() {
       <div className="px-4 pt-12 pb-6">
         <div className="flex items-center justify-between mb-6">
           <div>
-            <h1 className="text-2xl font-bold text-white mb-1">Market Intelligence</h1>
-            <p className="text-gray-400 text-sm">Real-time insights</p>
+            <h1 className="text-2xl font-bold text-white mb-1">UI/UX Market Dashboard</h1>
+            <p className="text-gray-400 text-sm">subheading here</p>
           </div>
           <div className="flex items-center gap-2">
             <button className="relative w-10 h-10 bg-gray-900 rounded-xl flex items-center justify-center">
