@@ -62,7 +62,6 @@ export default function FinancialNewsApp() {
 
   return (
     <div className="min-h-screen bg-black">
-      {/* Header */}
       <div className="px-5 pt-14 pb-6">
         <div className="flex items-center justify-between mb-8">
           <div>
@@ -80,7 +79,7 @@ export default function FinancialNewsApp() {
           </div>
         </div>
 
-        {/* Search */}
+      
         <div className="relative">
           <div className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10">
             <Search className="w-5 h-5 text-gray-500" />
@@ -95,7 +94,7 @@ export default function FinancialNewsApp() {
         </div>
       </div>
 
-      {/* News Cards */}
+    
       <div className="px-5 space-y-5 pb-10">
         {filteredNews.map((item, index) => (
           <div
@@ -134,7 +133,7 @@ export default function FinancialNewsApp() {
               {item.title}
             </h3>
 
-            {/* Stock Tags */}
+            {/* Stock Tag */}
             <div className="flex flex-wrap gap-2 mb-6">
               {item.stocks.slice(0, 4).map((stock) => (
                 <div
@@ -159,7 +158,7 @@ export default function FinancialNewsApp() {
               )}
             </div>
 
-            {/* Footer */}
+            {/* Foooter */}
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Clock className={`w-4 h-4 ${item.featured ? "text-white/70" : "text-gray-500"}`} />
@@ -184,7 +183,7 @@ export default function FinancialNewsApp() {
               </div>
             </div>
 
-            {/* Subtle glow effect for featured cards */}
+            {/* Subtle glow effect for featured cards i really like this effect lmao*/}
             {item.featured && (
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-purple-400/10 to-purple-600/10 pointer-events-none" />
             )}
