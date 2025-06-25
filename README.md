@@ -1,17 +1,14 @@
-# Market Intelligence Dashboard
+# Market News UI UX
 
-A modern financial news dashboard built with Next.js, React, and Tailwind CSS.
+built with Next.js, React, and Tailwind CSS
 
 ## Features
 
-- Real-time market insights
-- Responsive design (mobile-first)
-- Dark theme with purple accents
-- Interactive news cards
-- Stock tracking
-- Modern glassmorphism UI
+- Responsive design (mobile first)
+- Dark theme with purple accent 
+- Modern glassmorphism ui 
 
-## Tech Stack
+## tech Stack
 
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
@@ -19,13 +16,7 @@ A modern financial news dashboard built with Next.js, React, and Tailwind CSS.
 - **Icons**: Lucide React
 - **Deployment**: Vercel
 
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run development server: `npm run dev`
-4. Open [http://localhost:3000](http://localhost:3000)
 
 ## Deployment
 
-This project is optimized for Vercel deployment. Simply connect your GitHub repository to Vercel for automatic deployments.
+This project is optimized only for Vercel deployment but you can change it 
